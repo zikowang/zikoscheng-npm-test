@@ -1,11 +1,16 @@
 {
   "name": "zikoscheng-npm-test",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A demo npm package in typescript",
   "main": "build/index.js",
   "types": "build/index.d.ts",
   "typesVersions": {
     ">=5.2": { "*": ["ts5.2/*"] }
+  },
+  "homepage": "https://github.com/zikowang/zikoscheng-npm-test#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zikowang/zikoscheng-npm-test"
   },
   "scripts": {
     "build": "tsc",
